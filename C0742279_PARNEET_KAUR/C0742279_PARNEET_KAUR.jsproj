@@ -79,7 +79,11 @@
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
     <Content Include="page3.html" />
+    <Content Include="raindrops-plants-smell.jpg.653x0_q80_crop-smart.jpg" />
     <None Include="C0742279_PARNEET_KAUR_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
