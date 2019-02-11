@@ -8,6 +8,12 @@
             function popup() {
                 alert("Welcome to my WebPage!!!");
             }
+            function MouseRollOver(MyImage) {
+                Images.src = "index.png";
+            }
+            function MouseOut(MyImage) {
+                Images.src = "raindrops-plants-smell.jpg.653x0_q80_crop-smart.jpg";
+            }
         }
     </script>
     <style>
@@ -20,6 +26,11 @@
     </style>
 </head>
 <body onload="trigger();">
-    <p id="hover" ><img src="raindrops-plants-smell.jpg.653x0_q80_crop-smart.jpg" >Welcome!!!</p>
+    <p id="hover">Welcome!!!</p>
+    <div>
+        <img src="raindrops-plants-smell.jpg.653x0_q80_crop-smart.jpg"
+        onMouseOver="MouseRollOver(this)";
+        onMouseOut="MouseOut(this)"/>
+    </div>
 </body>
 </html>

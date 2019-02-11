@@ -69,6 +69,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="FormValidation.html" />
+    <Content Include="images\2flower.jfif" />
+    <Content Include="images\index.png" />
+    <Content Include="images\raindrops-plants-smell.jpg.653x0_q80_crop-smart.jpg" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />
